@@ -38,9 +38,15 @@ Invalid Input
 		{
 			System.out.println("Vowel");
 		}
-		else
+		else if((ch>='A' && ch<='Z' )|| (ch>='a' && ch<='z'))
 		{
 			System.out.println("Consonant");
 		}
+            else
+		{
+		   System.out.println("Invalid Input");
+		}
+
+
 	 }
  }
