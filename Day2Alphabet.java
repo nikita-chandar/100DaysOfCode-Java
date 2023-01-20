@@ -4,21 +4,13 @@ Description:
 
 Take an input character from user and check whether it is an alphabet or not.
 
-Input :
+Input :A
 
-A
+Output: Alphabet
 
-Output: 
+Input:7
 
-Alphabet
-
-Input:
-
-7
-
-Output:
-
-Not an alphabet
+Output:Not an alphabet
 
  */
  
@@ -31,7 +23,7 @@ Not an alphabet
 	 Scanner s=new Scanner(System.in);
 	 System.out.println("Entre the charchter");
 	 char ch=s.next().charAt(0); 
-	 if(ch>='a'&& ch<='z' &&ch>='A' && ch<='Z')
+	 if(ch>='a'&& ch<='z'||ch>='A' && ch<='Z')
 	 {
 		  System.out.println(" Alphabet");
 	 }
