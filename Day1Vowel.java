@@ -5,23 +5,21 @@ Description of the program:
 
 Take an input character from the user and check whether the given input is a vowel or consonant.
 
-Input
-A
+Input:A
 
-Output
-Vowel
+Output:Vowel
 
-Input
-m
 
-Output
-Consonant
+Input:m
 
-Input
-3
+Output:Consonant
 
-Output
-Invalid Input
+
+Input:3
+
+Output:Invalid Input
+
+
 
  */
  import java.util.Scanner;
