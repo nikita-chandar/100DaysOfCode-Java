@@ -2,15 +2,12 @@
 Description
 Get an input number from the user and check whether it is a positive or negative number.
 Input :-10
-
 Output :Negative number
 
 Input :0
-
 Output :Neither positive nor negative
 
 Input :15
-
 Output :Positive number
 */
 import java.util.Scanner;
